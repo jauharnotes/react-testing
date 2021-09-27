@@ -2,6 +2,6 @@
 2. LabelText: <label for="email" /> => getByLabelText("email") 
 3. PlaceholderText: <input placeholder="masukan email" /> => getByPlaceholderText("masukan email") 
 4. AltText: <img alt="image-profile" /> => getByAltText("image-profile") 
-5. DisplayValue: <input value="prawito@email.com" /> => getByDisplayValue("prawito@email.com") 
+5. DisplayValue: <input value="jauharnotes@email.com" /> => getByDisplayValue("jauharnotes@email.com") 
 6. Role: <button>submit</button> => getByRole("button") 
 7. TestId: <div data-testid="item-test">item apapun</div> => getByTestId("item-test")
