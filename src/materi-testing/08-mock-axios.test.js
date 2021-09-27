@@ -10,15 +10,15 @@ describe("Testing seluruh aplikasi", () => {
     const users = [
       {
         id: 1,
-        name: "Prawito Hudoro",
+        name: "Jauharuddin",
       },
       {
         id: 2,
-        name: "Azzamy Hudoro",
+        name: "Juned",
       },
       {
         id: 3,
-        name: "Hudoro",
+        name: "Agung",
       },
     ];
 
