@@ -9,9 +9,9 @@ describe("testing seluruh app", () => {
   it("testing onChange event", () => {
     render(<App />);
     const input = screen.getByPlaceholderText("input value");
-    userEvent.type(input, "Prawito Hudoro");
+    userEvent.type(input, "Jauharuddin");
     expect(
-      screen.getByText(/Anda mengetik Prawito Hudoro/)
+      screen.getByText(/Anda mengetik Jauharuddin/)
     ).toBeInTheDocument();
   });
   it("testing onClick pada text submit", () => {
